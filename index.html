@@ -117,8 +117,39 @@
       border-radius: 5px;
       transition: background 0.15s, color 0.15s;
       color: #222;
+      text-decoration: none;
     }
     .recommend a:hover {
+      background: #0078d41a;
+      color: #0078d4;
+    }
+    /* 旗下网站区样式 */
+    .section1 {
+      background: #fff;
+      margin: 10px auto;
+      padding: 10px;
+      max-width: 95vw;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.05);
+    }
+    .section1 strong {
+      display: block;
+      margin-bottom: 6px;
+      font-size: 16px;
+      color: #0078d4;
+      font-weight: bold;
+    }
+    .section1 a {
+      display: inline-block;
+      margin: 5px 10px;
+      font-size: 14px;
+      padding: 3px 7px;
+      border-radius: 5px;
+      transition: background 0.15s, color 0.15s;
+      color: #222;
+      text-decoration: none;
+    }
+    .section1 a:hover {
       background: #0078d41a;
       color: #0078d4;
     }
@@ -156,6 +187,7 @@
       border-radius: 5px;
       transition: background 0.15s, color 0.15s;
       color: #222;
+      text-decoration: none;
     }
     .toggle-content a:hover {
       background: #0078d41a;
@@ -193,10 +225,11 @@
       .logo { font-size: 1.1rem; }
       .ai-nav-links a { font-size: 13px; padding: 6px 12px; }
       .ai-nav-links { gap: 0.5em; }
-      .recommend a, .toggle-content a { font-size: 12px; margin: 4px 6px; }
-      .recommend, .section2 { padding: 8px; }
+      .recommend a, .toggle-content a, .section1 a { font-size: 12px; margin: 4px 6px; }
+      .recommend, .section2, .section1 { padding: 8px; }
       .search { margin: 10px auto; }
       .footer { font-size: 11px; }
+      .section1 strong { font-size: 13px; }
     }
   </style>
 </head>
@@ -260,12 +293,11 @@
       <a href="https://www.cadzxw.com/" target="_blank" rel="noopener noreferrer">CAD自学网</a>
       <a href="https://web-capture.net" target="_blank" rel="noopener noreferrer">网址截图1</a>
       <a href="https://screenshot.guru" target="_blank" rel="noopener noreferrer">网址截图2</a>
-
   </nav>
 
   <!-- 旗下网站 -->
-   <nav class="section1" aria-label="旗下网站">
-    <div><strong>🌐 旗下网站：</strong>
+  <nav class="section1" aria-label="旗下网站">
+    <strong>🌐 旗下网站：</strong>
     <a href="https://usa168hub.com/" target="_blank" rel="noopener noreferrer">usa168hub</a> 
     <a href="https://usa168hot.com/" target="_blank" rel="noopener noreferrer">usa168hot</a> 
     <a href="https://jozl.com/" target="_blank" rel="noopener noreferrer">jozl</a>
@@ -280,7 +312,6 @@
     <a href="https://123638.com/" target="_blank" rel="noopener noreferrer">123638</a>
     <a href="https://18hot.vip/"target="_blank" rel="noopener noreferrer">18Hot.vip</a>
     <a href="https://tapbi.xyz/"target="_blank" rel="noopener noreferrer">tapbi.xyz</a>
-    </div>
   </nav>
 
   <!-- 折叠区 -->
